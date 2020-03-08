@@ -1,6 +1,6 @@
-<php>
+<?php
   
   echo '<h1>holaaaaaa</h1>'
   
   
-  <!php>
+  ?>
