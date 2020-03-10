@@ -11,11 +11,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   
-    
+
     <script src="js/main.js" type="text/javascript"></script>
     <script src="js/jquery.sweet-modal.min.js" type="text/javascript"></script>
-    
+
     <link rel="stylesheet" type="text/css" href="style/main.css" />
     <link rel="stylesheet" type="text/css" href="style/hover.css" />
     <link rel="stylesheet" type="text/css" href="style/fontAwesome/css/all.css" />
@@ -28,16 +27,20 @@
 
 <body>
     <div class="jumbotron text-center padding-s">
-        <h2><b>Home</b></h2>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <a href="tables.html" class="hvr-radial-out padding-xl">Tables</a>
+        <div><a href="index.html"><i class="fas fa-angle-left fa-3x pull-left"></i></a>
+            <h2><b>Tables</b></h2>
         </div>
     </div>
 
-    <script src="js/clipboard.min.js" type="text/javascript"></script>
+    <div class="container">
+        <div class="containerActions">
+            <a class="hvr-fade padding-xl" onclick="requestRows();">Generate Template</a>
+            <div class="pull-right contentStyle"></div>
+        </div>
+        <br>
+        <div class="customTable row padding-xl"></div>
+    </div>
+
 </body>
 
 </html>

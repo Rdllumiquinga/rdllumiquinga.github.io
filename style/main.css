@@ -1,0 +1,67 @@
+/** CLASES UTILIES **/
+.padding-0 {
+  padding: 0px !important;
+}
+.padding-s {
+  padding: 0.5em !important;
+}
+.padding-m {
+  padding: 1em !important;
+}
+.padding-l {
+  padding: 1.5em !important;
+}
+.padding-xl {
+  padding: 2em !important;
+}
+/****/
+
+.containerActions {
+  height: 20%;
+}
+
+.containerElement {
+  background: #f7f7f7;
+}
+
+.infoOfertaList {
+  padding: 10px;
+}
+
+.infoOfertaList {
+  position: relative;
+  border-bottom: 1px solid #d8dbdc;
+  transition: all 0.3s ease-in-out;
+  border-left: 1px solid #d8dbdc;
+  border-right: 1px solid#d8dbdc;
+}
+
+.infoOfertaList:first-child {
+  border-top: 1px solid #d8dbdc;
+}
+
+.infoOfertaList:hover {
+  background-color: #809ead;
+}
+
+/*** TABLES STYLES ***/
+
+.headerList {
+  background-color: #f5f7fa !important;
+  padding: 10px 0px !important;
+  border-bottom: 1px solid #e9ecef !important;
+  text-transform: uppercase !important;
+}
+
+.headerList > div {
+  font-weight: bold;
+}
+
+.listStyle .itemList {
+  color: #616e7c !important;
+  padding: 10px 0px !important;
+  border-bottom: 1px solid #e9ecef;
+  text-align: left;
+}
+
+/*******/
