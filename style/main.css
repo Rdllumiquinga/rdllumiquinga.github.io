@@ -12,7 +12,9 @@ a[class^="hvr-"] {
   font-weight: bold;
 }
 
-a.hvr-fade:hover, a.hvr-fade:focus, a.hvr-fade:active {
+a.hvr-fade:hover,
+a.hvr-fade:focus,
+a.hvr-fade:active {
   background-color: #21386f;
   color: #d7def1;
 }
@@ -63,36 +65,36 @@ a.hvr-radial-out:before {
   border-radius: 5px;
 }
 
-.noData{
+.noData {
   color: #3b455d;
   display: flex;
   flex-direction: column;
 }
 
-.noData i{
+.noData i {
   font-size: 40px;
 }
 
-.font-size-xl{
+.font-size-xl {
   font-size: 40px !important;
 }
 
 /*** TABLES STYLES ***/
 
-.headerList {
-  background-color: #f5f7fa !important;
-  padding: 10px 0px !important;
-  border-bottom: 1px solid #e9ecef !important;
-  text-transform: uppercase !important;
+div.headerList {
+  background-color: #f5f7fa;
+  padding: 10px 0px;
+  border-bottom: 1px solid #e9ecef;
+  text-transform: uppercase;
 }
 
-.headerList > div {
+div.headerList > div {
   font-weight: bold;
 }
 
-.listStyle .itemList {
-  color: #616e7c !important;
-  padding: 10px 0px !important;
+div.listStyle div.itemList {
+  color: #616e7c;
+  padding: 10px 0px;
   border-bottom: 1px solid #e9ecef;
   text-align: left;
 }
