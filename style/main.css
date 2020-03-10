@@ -1,20 +1,32 @@
-/** CLASES UTILIES **/
-.padding-0 {
-  padding: 0px !important;
+body {
+  background-image: url(../img/background.png);
 }
-.padding-s {
-  padding: 0.5em !important;
+
+a {
+  color: #3b455d;
 }
-.padding-m {
-  padding: 1em !important;
+
+a[class^="hvr-"] {
+  background: #e3e8ef;
+  color: #556479;
+  font-weight: bold;
 }
-.padding-l {
-  padding: 1.5em !important;
+
+a.hvr-fade:hover, a.hvr-fade:focus, a.hvr-fade:active {
+  background-color: #21386f;
+  color: #d7def1;
 }
-.padding-xl {
-  padding: 2em !important;
+
+a.hvr-radial-out:before {
+  background-color: #21386f;
+  color: #d7def1;
 }
-/****/
+
+.customHeaderPage {
+  color: #031235;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px #caced4;
+}
 
 .containerActions {
   height: 20%;
@@ -44,6 +56,27 @@
   background-color: #809ead;
 }
 
+.customTable {
+  background: white;
+  border: 1px solid #ebecec;
+  box-shadow: 0px 0px 6px #e4e7ea;
+  border-radius: 5px;
+}
+
+.noData{
+  color: #3b455d;
+  display: flex;
+  flex-direction: column;
+}
+
+.noData i{
+  font-size: 40px;
+}
+
+.font-size-xl{
+  font-size: 40px !important;
+}
+
 /*** TABLES STYLES ***/
 
 .headerList {
@@ -62,6 +95,18 @@
   padding: 10px 0px !important;
   border-bottom: 1px solid #e9ecef;
   text-align: left;
+}
+
+/*******/
+
+/*** ANIMATION DELAY ***/
+
+.delay-0-5s {
+  animation-delay: 0.5s;
+}
+
+.delay-1-5s {
+  animation-delay: 1.5s;
 }
 
 /*******/

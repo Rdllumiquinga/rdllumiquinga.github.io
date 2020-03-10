@@ -80,6 +80,10 @@ h1,h2,h3,h4,h5 {
     padding: 25px !important
 }
 
+.padding-xxl {
+    padding: 35px !important
+}
+
 .padding-left-0 {
     padding-left: 0 !important
 }
@@ -1433,6 +1437,10 @@ flx-text .form-control[type='color'] {
         padding: 25px !important
     }
 
+    .padding-xxl {
+        padding: 35px !important
+    }
+
     .padding-left-0 {
         padding-left: 0 !important
     }
@@ -1883,6 +1891,10 @@ flx-text .form-control[type='color'] {
     .padding-xl {
         padding: 6px !important
     }
+
+    .padding-xxl {
+        padding: 8px !important
+    }    
 
     .padding-left-0 {
         padding-left: 0 !important
