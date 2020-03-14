@@ -112,3 +112,16 @@ div.listStyle div.itemList {
 }
 
 /*******/
+
+/*** GRID STACK ***/
+
+.grid-stack-item[data-gs-height="1"] {
+  min-height: 40px !important;
+  height: 40px !important;
+}
+
+.grid-stack-item > div.grid-stack-item-content{
+      background: #9ba7b917;
+}
+
+/******/
