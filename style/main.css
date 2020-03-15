@@ -6,6 +6,15 @@ a {
   color: #3b455d;
 }
 
+.dflex {
+  display: flex;
+}
+
+.alignItemsCenter {
+  display: flex;
+  align-items: center;
+}
+
 a[class^="hvr-"] {
   background: #e3e8ef;
   color: #556479;
@@ -97,6 +106,11 @@ div.listStyle div.itemList {
   padding: 10px 0px;
   border-bottom: 1px solid #e9ecef;
   text-align: left;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+div.listStyle div.itemList:hover {
+  background-color: #eceff33d;
 }
 
 /*******/
@@ -120,8 +134,18 @@ div.listStyle div.itemList {
   height: 40px !important;
 }
 
-.grid-stack-item > div.grid-stack-item-content{
-      background: #9ba7b917;
+.grid-stack-item > div.grid-stack-item-content {
+  background: #0000000a;
+}
+
+/******/
+
+/*** COLOR PICKER STYLE ***/
+
+div.sp-replacer {
+  width: 5em;
+  height: 2em;
+  border: 1px solid #d4dae3;
 }
 
 /******/
