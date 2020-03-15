@@ -6,6 +6,10 @@ a {
   color: #3b455d;
 }
 
+.dInline{
+  display: inline;
+}
+
 .dflex {
   display: flex;
 }
