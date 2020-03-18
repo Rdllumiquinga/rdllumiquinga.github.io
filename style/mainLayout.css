@@ -84,6 +84,10 @@ h1,h2,h3,h4,h5 {
     padding: 35px !important
 }
 
+.padding-btn-ultra-xxl {
+    padding: 3em 9em !important
+}
+
 .padding-left-0 {
     padding-left: 0 !important
 }
@@ -1441,6 +1445,10 @@ flx-text .form-control[type='color'] {
         padding: 35px !important
     }
 
+    .padding-btn-ultra-xxl {
+        padding: 3em 9em !important
+    }
+
     .padding-left-0 {
         padding-left: 0 !important
     }
@@ -1890,6 +1898,10 @@ flx-text .form-control[type='color'] {
 
     .padding-xl {
         padding: 6px !important
+    }
+
+    .padding-btn-ultra-xxl {
+        padding: 1em 4em !important
     }
 
     .padding-xxl {
