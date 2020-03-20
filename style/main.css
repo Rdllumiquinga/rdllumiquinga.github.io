@@ -2,6 +2,10 @@ body {
   background-image: url(../img/background.png);
 }
 
+.container{
+  width: 90% !important;
+}
+
 a {
   color: #3b455d;
 }
@@ -165,7 +169,7 @@ div.sp-replacer {
 
 /*** BUTTONS STYLES ***/
 
-.bubbly-button {
+.bbutton {
   font-family: 'Helvetica', 'Arial', sans-serif;
   display: inline-block;
   font-size: 2em;
@@ -182,7 +186,7 @@ div.sp-replacer {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.bubbly-button:hover {
+.bbutton:hover {
   transform: scale(0.96);
   background-color: #323f4b;
   box-shadow: 0px 1px 10px rgba(168, 128, 63, 0.66);
